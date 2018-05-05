@@ -1,7 +1,0 @@
-.DS_Store
-build
-dist
-cache.properties
-TAGS
-nbproject/private
-*.xml
