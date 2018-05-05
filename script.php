@@ -1,12 +1,12 @@
 <?php
 const TOKEN = "";
-const EMAIL_LIST = ['mails4mage@gmail.com','mails4mage@gmail.com','mails4mage@gmail.com'];
+const EMAIL_LIST = ["email1","email2","email3"];
 
 // Mentors should be invited to #general, #random....
-const MENTORS = "";
+const MENTORS = "CHANNELID1,CHANNELID2,CHANNELID3,CHANNELID4";
 
 // Facilitators should be invited to #general, #random....
-const FACILITATORS = "";
+const FACILITATORS = "CHANNELID1,CHANNELID2,CHANNELID3,CHANNELID4";
 
 
 foreach (EMAIL_LIST as $email)
