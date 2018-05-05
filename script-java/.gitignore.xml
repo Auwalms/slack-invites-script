@@ -4,3 +4,4 @@ dist
 cache.properties
 TAGS
 nbproject/private
+*.xml
