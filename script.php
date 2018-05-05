@@ -13,9 +13,23 @@ foreach (EMAIL_LIST as $email)
 {
     $slack_url = 'https://slack.com/api/users.admin.invite?token='.TOKEN.'&email='.$email.'&channels='.MENTORS.'&resend=true';
 
-    $response = json_decode(file_get_contents($slack_url));
+	$ch = curl_init();
+    $headers = ['Accept: application/json','Content-Type: application/json',];
 
-    var_dump($response);
+    curl_setopt($ch, CURLOPT_URL, $slack_url);
 
+    //Set request headers
+	curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
+	curl_setopt($ch, CURLOPT_HEADER, 0);
+	curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+
+	// Timeout in seconds
+    curl_setopt($ch, CURLOPT_TIMEOUT, 30);
+
+	$response = curl_exec($ch);
+
+	//Display response
+	echo "<br /> ---Response for '{$email}'";
+    var_dump(json_decode($response));
     echo "\n +++";
 }
