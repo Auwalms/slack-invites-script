@@ -5,6 +5,15 @@ Javascript implementation => https://github.com/Auwalms/slack-invites-script/blo
 
 Python implementation => https://github.com/Auwalms/slack-invites-script/blob/master/script.py
 
+PHP Implementation => https://github.com/Auwalms/slack-invites-script/blob/master/script.php
+
+
+
+
+
+
+
+
 
 
 
