@@ -13,7 +13,7 @@ EMAIL_LIST.forEach(email => {
 function sendInvite(email) {
   const INVITATION_URL = `https://slack.com/api/users.admin.invite?token=${TOKEN}&email=${email}&channels=${CHANNELS}`;
 
-  fetch(SLACK_URL)
+  fetch(INVITATION_URL)
     .then(response => response.json())
     .then(function(response) {
       console.log(`${email} invitation status:`, response);
