@@ -7,6 +7,7 @@ Python implementation => https://github.com/Auwalms/slack-invites-script/blob/ma
 
 PHP Implementation => https://github.com/Auwalms/slack-invites-script/blob/master/script.php
 
+Java Implementation => https://github.com/Auwalms/slack-invites-script/blob/master/Invite.java
 
 
 
