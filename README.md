@@ -9,6 +9,8 @@ PHP Implementation => https://github.com/Auwalms/slack-invites-script/blob/maste
 
 Java Implementation => https://github.com/Auwalms/slack-invites-script/blob/master/Invite.java
 
+Golang Implementation => https://github.com/Auwalms/slack-invites-script/blob/master/slackInvite.java
+
 
 
 
