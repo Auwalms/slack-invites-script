@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ALC4 Slack Invite</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="app.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-142137097-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-XXXXXXXX-1');
+    </script>
+</head>
+
+<body>
+
+    <body class="text-center">
+        <form class="invite-form" id="inviteForm">
+            <img class="img-fluid"
+                src="https://3xyh3sqxv063a8xzo5uk2zn1-wpengine.netdna-ssl.com/wp-content/uploads/2019/04/ALC2019_FullColor-300x189.png"
+                alt="" width="300" height="189"
+                srcset="https://3xyh3sqxv063a8xzo5uk2zn1-wpengine.netdna-ssl.com/wp-content/uploads/2019/04/ALC2019_FullColor-300x189.png 300w, https://3xyh3sqxv063a8xzo5uk2zn1-wpengine.netdna-ssl.com/wp-content/uploads/2019/04/ALC2019_FullColor-1024x646.png 1024w"
+                sizes="(max-width: 500px) 100vw, 500px">
+            <div class="alert hidden" role="alert" id="alertBox"></div>
+            <p>
+                <a href="http://alc4-android.slack.com" class="workspace-link" target="_blank"
+                    rel="noreferrer">Android</a> |
+                <a href="http://alc4-cloud.slack.com" class="workspace-link" target="_blank" rel="noreferrer">Cloud</a>
+                |
+                <a href="http://alc4-mws.slack.com" class="workspace-link" target="_blank" rel="noreferrer">Mobile
+                    Web</a>
+            </p>
+            <p>
+                <label for="userEmail" class="sr-only">Email address</label>
+                <input type="email" id="userEmail" class="user-email-input form-control" placeholder="Email address"
+                    required autofocus>
+            </p>
+            <p>
+                <label for="tracks" class="sr-only">Select Track</label>
+                <select name="tracks" id="tracks" required class="form-control">
+                    <option value="">Select Your Track</option>
+                    <option value="android">Android</option>
+                    <option value="cloud">Cloud</option>
+                    <option value="mws">Mobile Web Specialist</option>
+                </select>
+            </p>
+
+            <button type="submit" id="sendInvite" class="btn btn-lg btn-success">Send Invite</button>
+            <p class="mt-5 mb-3 text-muted">&copy;The ALC Team 2019</p>
+        </form>
+    </body>
+    <script src="app.js"></script>
+</body>
+
+</html>
