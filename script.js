@@ -1,6 +1,5 @@
 function invite() {
-    const TOKEN =
-        "xoxp-410696815025-410696815393-411131764179-0c0b008eb159906e67d80e8d80f5ba2c"; //add your token here, generate from https://api.slack.com/custom-integrations/legacy-tokens
+    const TOKEN = ""; //add your token here, generate from https://api.slack.com/custom-integrations/legacy-tokens
     const EMAIL_LIST = [
        
     ];
